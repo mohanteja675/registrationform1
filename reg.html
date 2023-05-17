@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+    <center>
+        <div>
+            <form class="form">
+                <table>
+                    <caption>
+                        Registration Form
+                    </caption>
+                    <tr>
+                        <td>Student Name</td>
+                        <td>:</td>
+                        <td><input type=text placeholder="Student Name"></td>
+                    </tr>
+                    <tr>
+                        <td>HallTicket no</td>
+                        <td>:</td>
+                        <td><input type=text placeholder="HallTicket no"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>:</td>
+                        <td> <input type="radio" name="Gender">Male <input type="radio" name="Gender">Female</td>
+
+                    </tr>
+                    <tr>
+                        <td>Branch</td>
+                        <td>:</td>
+                        <td>
+                            <select>
+                                <option value="AI&ML">AI&ML</option>
+                                <option value="DS">DS</option>
+                                <option value="CS">CS</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email-id</td>
+                        <td>:</td>
+                        <td>
+                            <input type="email" placeholder="Email-id">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Upload Your Photo</td>
+                        <td>:</td>
+                        <td><input type="file"></td>
+
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>:</td>
+                        <td><textarea cols="30" value="address">
+        </textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button class="red">Submit</button></td>
+                        <td><button class="re">Reset</button></td>
+                        <td><button class="ca">Cancel</button></td>
+
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+    <script>
+        
+       var yourname = prompt("what is your name");
+        var myname="mohan";
+        alert(yourname);
+
+    </script>
+</body>
+</html>

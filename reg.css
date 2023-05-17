@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+div {
+    background-color: rgb(62, 64, 58);
+    margin: 100px;
+    background-size: cover;
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 700px;
+    height: 500px;
+    font-size: 30px;
+    box-shadow: 10px 10px 10px rgb(6, 163, 236);
+}
+
+table {
+    padding: 25px;
+    font-size: 24px;
+    height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+caption {
+    margin: 16px;
+    Padding: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    border: none;
+    color: white;
+    height: 20px;
+    border-radius: 30px;
+    background-color: rgba(20, 111, 203, 0.373);
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+input:hover {
+    box-shadow: 5px 5px 5px rgb(0, 208, 255);
+    color: yellow;
+    cursor: pointer;
+}
+
+.red:hover {
+    box-shadow: 0 0 10px rgb(185, 220, 10);
+    background-color: rgb(132, 237, 158);
+    border-radius: 9px;
+    cursor: pointer;
+    color:black;
+}
+
+.re:hover {
+    box-shadow: 0 0 10px rgb(234, 76, 18);
+    background-color: rgb(123, 211, 240);
+    border-radius: 9px;
+    cursor: pointer;
+    color: black;
+}
+
+.ca:hover {
+    box-shadow: 0 0 10px rgba(240, 99, 43, 0.715);
+    background-color: lightcoral;
+    border-radius: 9px;
+    cursor: pointer;
+    color:black
+}
+
+.red {
+    font-size: 20px;
+    margin: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.re {
+    font-size: 20px;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    color:black;
+
+
+}
+
+.ca {
+    font-size: 20px;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    color:black;
+}
